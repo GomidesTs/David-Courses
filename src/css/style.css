@@ -1,0 +1,118 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-top: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+.data {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.information {
+  padding-top: 15px;
+  max-width: 500px;
+  padding-right: 5px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.change {
+  padding-top: 15px;
+  max-width: 500px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-left: 5px;
+  border-right: 2px solid rgba(0, 0, 0, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.details {
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.me {
+  max-width: 500px;
+  padding: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.cite{
+  padding-top:20px;
+}
+
+.map{
+  width: 430px;
+height: 190px;
+border-radius: 15px;
+}
+
+.course {
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.course_1 {
+  height: 300px;
+  width: 250px;
+  background-color: #1E90FF;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #1874CD;
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.course_1:not(:first-child) {
+  margin-left: -50px;
+}
+
+.course_1:hover {
+  transform: translateY(-20px);
+  padding:20px;
+  margin: 15px;
+  transition: 0.4s ease-out;
+}
+
+.course_1:hover ~ .course_1 {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+p {
+  padding-top: 20px;
+}
+
+.testimonials {
+  justify-content: center;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  padding-top: 25px;
+}
+

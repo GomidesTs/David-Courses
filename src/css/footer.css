@@ -1,0 +1,45 @@
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background-color: rgb(58, 57, 57);
+  height: auto;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-size: 16px;
+  color: rgb(254, 254, 255);
+  text-align:center;
+}
+footer a {
+  color: rgb(248, 244, 244);
+  text-decoration: none;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.address {
+  background-color: rgb(97, 95, 95);
+  width: 100%;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 980px) {
+  footer {
+    position: fixed;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  footer {
+    position: fixed;
+    margin: auto;
+  }
+}
