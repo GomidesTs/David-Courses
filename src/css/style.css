@@ -55,7 +55,7 @@ header {
   padding-top: 20px;
 }
 
-.maps{
+.maps {
   max-width: 500px;
 }
 
@@ -64,6 +64,18 @@ header {
   height: 190px;
   border: none;
   border-radius: 25px;
+}
+
+.service {
+  padding-top:50px;
+  max-width: 50%;
+  direction: unset;
+  margin: auto;
+  text-align:center;
+}
+
+.service h2{
+  padding-bottom: 15px;
 }
 
 .course {
@@ -80,7 +92,7 @@ header {
   width: 250px;
   background-color: #1e90ff;
   border-radius: 10px;
-  box-shadow: -1rem 0 3rem #1874cd;
+  box-shadow: -1rem 0 1rem #1873cda1;
   transition: 0.4s ease-out;
   position: relative;
   left: 0px;
@@ -91,10 +103,13 @@ header {
 }
 
 .course_1:hover {
-  transform: translateY(-20px);
+  transform: translateY(-50px);
   padding: 20px;
   margin: 15px;
   transition: 0.4s ease-out;
+  width: 100%;
+  background-color: #ffbc00;
+
 }
 
 .course_1:hover ~ .course_1 {
