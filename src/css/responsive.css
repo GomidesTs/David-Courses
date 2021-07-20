@@ -1,0 +1,63 @@
+@media screen and (max-width: 900px) {
+  .course_1 {
+    overflow: hidden;
+  }
+
+  .details {
+    padding-top: 20px;
+    padding-left: 20px;
+    display: block;
+  }
+
+  .Image {
+    text-align: center;
+    margin: auto;
+  }
+
+  .me {
+    max-width: 500px;
+    padding: 20px;
+    text-align: justify;
+    text-justify: justify;
+    margin: auto;
+  }
+
+  .service {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .course {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  input {
+    margin: auto;
+    width: 90%;
+  }
+
+  textarea {
+    margin: auto;
+    width: 90%;
+    padding-bottom: 15px;
+  }
+
+  button {
+      margin-left: auto;
+      margin-right: auto;
+      width:90% ;
+  }
+
+  .whatsapp {
+    position: fixed;
+    width: 40px;
+    bottom: 30px;
+    right: 20px;
+  }
+
+  .whatsapp :hover {
+    transform: none;
+  }
+}
