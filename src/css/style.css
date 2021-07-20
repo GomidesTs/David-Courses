@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+}
+
 header {
   padding-top: 15px;
   margin: auto;
@@ -67,14 +71,14 @@ header {
 }
 
 .service {
-  padding-top:50px;
+  padding-top: 50px;
   max-width: 50%;
   direction: unset;
   margin: auto;
-  text-align:center;
+  text-align: center;
 }
 
-.service h2{
+.service h2 {
   padding-bottom: 15px;
 }
 
@@ -109,7 +113,6 @@ header {
   transition: 0.4s ease-out;
   width: 100%;
   background-color: #ffbc00;
-
 }
 
 .course_1:hover ~ .course_1 {
@@ -148,6 +151,7 @@ input {
   border-left: none;
   outline: none;
   border-color: #1874cd;
+  background: transparent;
 }
 
 textarea {
@@ -159,6 +163,7 @@ textarea {
   width: 500px;
   height: 15px;
   resize: none;
+  background: transparent;
 }
 
 button {
