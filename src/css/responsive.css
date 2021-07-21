@@ -15,8 +15,10 @@
   }
 
   .cite{
+    max-width: 100%;
     height: 150px;
   }
+
   .me {
     max-width: 500px;
     padding: 20px;
@@ -36,6 +38,11 @@
     margin: auto;
   }
 
+.cite{
+    max-width: 100%;
+    height: 150px;
+  }
+  
   input {
     margin: auto;
     width: 90%;
