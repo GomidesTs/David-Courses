@@ -14,8 +14,9 @@
     margin: auto;
   }
 
-  .cite{
-    max-width: 100%;
+  .cite {
+    max-width: 90%;
+    width: 400px;
     height: 150px;
   }
 
@@ -38,11 +39,11 @@
     margin: auto;
   }
 
-.cite{
-    max-width: 100%;
+  .cite {
+    max-width: 500px;
     height: 150px;
   }
-  
+
   input {
     margin: auto;
     width: 90%;
@@ -55,9 +56,9 @@
   }
 
   button {
-      margin-left: auto;
-      margin-right: auto;
-      width:90% ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
 
   .whatsapp {
