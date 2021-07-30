@@ -1,3 +1,48 @@
+@media screen and (max-width: 1450px) {
+  .left {
+    padding: 0;
+    left: 40px;
+    transform: translateY(70px);
+    max-width: 300px;
+    height: 280px;
+    overflow: hidden;
+  }
+  
+  .right {
+    padding: 0;
+    transform: translateY(70px);
+    max-width: 290px;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .left {
+    max-width: 250px;
+  }
+  
+  .right {
+    max-width: 250px;
+  }
+
+}
+
+@media screen and (max-width: 1210px) {
+  .left {
+    position:static;
+    display: inline;
+    width: 1000px;
+  }
+  
+  .right {
+    position: static;
+    display: inline;
+  }
+
+}
+
 @media screen and (max-width: 900px) {
   .course_1 {
     overflow: hidden;
@@ -30,7 +75,7 @@
 
   .service {
     max-width: 700px;
-  }
+  } 
 }
 
 @media screen and (max-width: 530px) {

@@ -206,3 +206,38 @@ label {
 .whatsapp :hover {
   transform: scale(1.5);
 }
+
+.books {
+  position: relative;
+  padding-top: 25px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.books img {
+  width: 100%;
+}
+
+.left {
+  position: absolute;
+  padding: 10px;
+  text-align: center;
+  top: 0;
+  left: 60px;
+  transform: translateY(100px);
+  max-width: 400px;
+  width: 100%;
+}
+
+.right {
+  position: absolute;
+  padding: 10px;
+  text-align: center;
+  top: 0;
+  right: 50px;
+  transform: translateY(100px);
+  max-width: 400px;
+  width: 100%;
+}
