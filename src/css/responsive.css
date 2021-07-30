@@ -29,16 +29,46 @@
 
 }
 
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1100px) {
   .left {
-    position:static;
-    display: inline;
-    width: 1000px;
+    max-width: 200px;
+    height: 220px;
   }
   
   .right {
-    position: static;
-    display: inline;
+    max-width: 200px;
+    height: 220px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  .left {
+    max-width: 150px;
+    height: 150px;
+  }
+  
+  .right {
+    max-width: 150px;
+    height: 150px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .left {
+    display:none;
+  }
+  
+  .right {
+    display:none;
+  }
+
+  .recommendation{
+    padding-top:25px;
+    display: inline-block;
+    max-width:900px;
+    width:100%;
   }
 
 }
