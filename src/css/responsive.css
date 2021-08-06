@@ -113,9 +113,9 @@
 
 @media screen and (max-width: 530px) {
   .course_1{
-    height: 2000px;
+    height: 600px;
   }
-  
+
   .cite {
     max-width: 500px;
     height: 150px;
