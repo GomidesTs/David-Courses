@@ -22,6 +22,9 @@
 }
 
 @media screen and (max-width: 1300px) {
+  .course_1{
+    height: 700px;
+  }
   .left {
     max-width: 250px;
   }
@@ -74,10 +77,6 @@
     width:100%;
   }
 
-}
-
-@media screen and (max-width: 900px) {
-
   .course_1 {
     height: 500px;
   }
@@ -113,6 +112,9 @@
 }
 
 @media screen and (max-width: 530px) {
+  .course_1{
+    height: 1000px;
+  }
   .cite {
     max-width: 500px;
     height: 150px;
