@@ -104,8 +104,18 @@ header {
   transition: 0.4s ease-out;
   position: relative;
   left: 0px;
+  overflow: hidden;
 }
 
+.course_1 a{
+  color:#fff;
+  font-size:2em;
+}
+
+.course_1 em{
+color:#fff;
+font-size: 1.5em;
+}
 .course_1:not(:first-child) {
   margin-left: -50px;
 }
