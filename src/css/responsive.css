@@ -1,4 +1,7 @@
 @media screen and (max-width: 1450px) {
+  .course_1{
+    height: 400px;
+  }
   .left {
     padding: 0;
     left: 40px;
@@ -74,8 +77,9 @@
 }
 
 @media screen and (max-width: 900px) {
+
   .course_1 {
-    overflow: hidden;
+    height: 500px;
   }
 
   .details {
@@ -109,11 +113,6 @@
 }
 
 @media screen and (max-width: 530px) {
-  .course {
-    max-width: 90%;
-    margin: auto;
-  }
-
   .cite {
     max-width: 500px;
     height: 150px;
