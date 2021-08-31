@@ -114,7 +114,7 @@ header {
 
 .course_1 em{
 color:#fff;
-font-size: 1.5em;
+font-size: 1.2rem;
 }
 
 .course_1:not(:first-child) {
