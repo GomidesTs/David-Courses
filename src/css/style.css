@@ -77,9 +77,10 @@ header {
 .service {
   padding-top: 50px;
   max-width: 50%;
-  direction: unset;
   margin: auto;
   text-align: center;
+  justify-content: center;
+  
 }
 
 .service h2 {
@@ -95,26 +96,9 @@ header {
   text-align: center;
 }
 
-.course_1 {
-  height: 300px;
-  width: 250px;
-  background-color: #1e90ff;
-  border-radius: 10px;
-  box-shadow: -1rem 0 1rem #1873cda1;
-  transition: 0.4s ease-out;
-  position: relative;
-  left: 0px;
-  overflow: hidden;
-}
-
-.course_1 a{
-  color:#fff;
-  font-size:2em;
-}
-
-.course_1 em{
+.course em{
 color:#fff;
-font-size: 1.2rem;
+font-size: 1.5rem;
 }
 
 .course_1:not(:first-child) {

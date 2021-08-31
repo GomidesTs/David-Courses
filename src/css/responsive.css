@@ -1,5 +1,5 @@
 @media screen and (max-width: 1450px) {
-  .course_1{
+  .course_1 {
     height: 400px;
   }
   .left {
@@ -10,7 +10,7 @@
     height: 280px;
     overflow: hidden;
   }
-  
+
   .right {
     padding: 0;
     transform: translateY(70px);
@@ -19,20 +19,27 @@
     height: 250px;
     overflow: hidden;
   }
+
+  .card-big-shadow {
+    max-width: 90%;
+  }
 }
 
 @media screen and (max-width: 1300px) {
-  .course_1{
+  .course_1 {
     height: 500px;
   }
   .left {
     max-width: 250px;
   }
-  
+
   .right {
     max-width: 250px;
   }
 
+  .card-big-shadow {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -40,12 +47,15 @@
     max-width: 200px;
     height: 220px;
   }
-  
+
   .right {
     max-width: 200px;
     height: 220px;
   }
 
+  .card-big-shadow {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -53,28 +63,31 @@
     max-width: 150px;
     height: 150px;
   }
-  
+
   .right {
     max-width: 150px;
     height: 150px;
   }
 
+  .card-big-shadow {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .left {
-    display:none;
-  }
-  
-  .right {
-    display:none;
+    display: none;
   }
 
-  .recommendation{
-    padding-top:25px;
+  .right {
+    display: none;
+  }
+
+  .recommendation {
+    padding-top: 25px;
     display: inline-block;
-    max-width:900px;
-    width:100%;
+    max-width: 900px;
+    width: 100%;
   }
 
   .course_1 {
@@ -108,11 +121,15 @@
 
   .service {
     max-width: 700px;
-  } 
+  }
+
+  .card-big-shadow {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 530px) {
-  .course_1{
+  .course_1 {
     height: 600px;
   }
 
@@ -147,5 +164,9 @@
 
   .whatsapp :hover {
     transform: none;
+  }
+
+  .card-big-shadow {
+    max-width: 100%;
   }
 }
