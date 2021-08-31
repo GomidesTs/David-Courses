@@ -19,10 +19,6 @@
     height: 250px;
     overflow: hidden;
   }
-
-  .card-big-shadow {
-    max-width: 90%;
-  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -36,10 +32,6 @@
   .right {
     max-width: 250px;
   }
-
-  .card-big-shadow {
-    max-width: 100%;
-  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -52,10 +44,6 @@
     max-width: 200px;
     height: 220px;
   }
-
-  .card-big-shadow {
-    max-width: 100%;
-  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -67,10 +55,6 @@
   .right {
     max-width: 150px;
     height: 150px;
-  }
-
-  .card-big-shadow {
-    max-width: 100%;
   }
 }
 
@@ -122,10 +106,6 @@
   .service {
     max-width: 700px;
   }
-
-  .card-big-shadow {
-    max-width: 100%;
-  }
 }
 
 @media screen and (max-width: 530px) {
@@ -164,9 +144,5 @@
 
   .whatsapp :hover {
     transform: none;
-  }
-
-  .card-big-shadow {
-    max-width: 100%;
   }
 }
